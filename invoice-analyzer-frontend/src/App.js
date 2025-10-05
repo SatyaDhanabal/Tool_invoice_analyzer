@@ -13,9 +13,8 @@ function App() {
   const [isLoading, setIsLoading] = useState(false)
 
   // Use absolute URL for API calls
-  const API_BASE = import.meta.env.MODE === 'development' 
-    ? 'const API_BASE = import.meta.env.VITE_BACKEND_URL;' 
-    : ''
+  const API_BASE = import.meta.env.VITE_BACKEND_URL;
+
 
   const handleUploadSuccess = (data) => {
     setUploadId(data.uploadId)
