@@ -14,7 +14,7 @@ function App() {
 
   // Use absolute URL for API calls
   const API_BASE = import.meta.env.MODE === 'development' 
-    ? 'https://tool-invoice-analyzer.onrender.com' 
+    ? 'const API_BASE = import.meta.env.VITE_BACKEND_URL;' 
     : ''
 
   const handleUploadSuccess = (data) => {
