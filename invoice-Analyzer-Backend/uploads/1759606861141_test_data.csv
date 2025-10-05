@@ -1,0 +1,2 @@
+invoice.id,invoice.issue_date,invoice.currency,invoice.total_excl_vat,invoice.vat_amount,invoice.total_incl_vat,seller.name,seller.trn,buyer.name,buyer.trn,lines[].qty,lines[].unit_price,lines[].line_total
+INV001,2025-01-15,AED,100,5,105,Seller Inc,123456789,Buyer Corp,987654321,1,100,100

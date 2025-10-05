@@ -1,0 +1,17 @@
+[
+  {
+    "invoice.id": "INV001",
+    "invoice.issue_date": "2025-01-15",
+    "invoice.currency": "AED",
+    "invoice.total_excl_vat": "100",
+    "invoice.vat_amount": "5",
+    "invoice.total_incl_vat": "105",
+    "seller.name": "Seller Inc",
+    "seller.trn": "123456789",
+    "buyer.name": "Buyer Corp",
+    "buyer.trn": "987654321",
+    "lines[].qty": "1",
+    "lines[].unit_price": "100",
+    "lines[].line_total": "100"
+  }
+]

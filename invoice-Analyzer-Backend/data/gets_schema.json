@@ -1,0 +1,30 @@
+{
+    "invoice": [
+      "invoice.id",
+      "invoice.issue_date",
+      "invoice.currency",
+      "invoice.total_excl_vat",
+      "invoice.vat_amount",
+      "invoice.total_incl_vat"
+    ],
+    "seller": [
+      "seller.name",
+      "seller.trn",
+      "seller.country",
+      "seller.city"
+    ],
+    "buyer": [
+      "buyer.name",
+      "buyer.trn",
+      "buyer.country",
+      "buyer.city"
+    ],
+    "lines": [
+      "lines[].sku",
+      "lines[].description",
+      "lines[].qty",
+      "lines[].unit_price",
+      "lines[].line_total"
+    ]
+  }
+  

@@ -1,0 +1,32 @@
+{
+  "name": "gets-readiness-tool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "GETS Readiness Assessment Tool",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "cors": "^2.8.5",
+    "csv-parse": "^6.1.0",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "keywords": ["invoice", "compliance", "GETS"],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SatyaDhanabal/invoice-Analyzer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SatyaDhanabal/invoice-Analyzer/issues"
+  },
+  "homepage": "https://github.com/SatyaDhanabal/invoice-Analyzer#readme"
+}
